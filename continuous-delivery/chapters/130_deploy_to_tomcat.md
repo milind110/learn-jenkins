@@ -1,5 +1,7 @@
 # Deploying to Tomcat
 
+## NOTE: This step can be skipped, if you are app is a .JAR like spring based projects. 
+
 We have setup the jobs which compile code and then run unit tests, static code analysis etc. Once its been unit tested, we would like to deploy the software. In this case we would deploy it to a tomcat server in our development environment. Later on, we would also create a docker image which could then be either deployed to production, or shipped to the customers.
 
 ## Preparing Tomcat for Deployment
